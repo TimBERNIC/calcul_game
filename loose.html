@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link href="./style2.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <section class="game" >
+           <div id="result">PERDU</div>
+            <div id="responsOne"><script></script></div>
+            <button id="button" onclick="back()">RETOUR</button>
+            
+    </section>
+    <script>
+        // Récupérer et afficher la valeur de total
+        document.addEventListener("DOMContentLoaded", () => {
+            const total = localStorage.getItem("total");
+            document.getElementById("responsOne").innerHTML = total;
+        });
+        function back() {
+            window.location.href = "./index.html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(78, 138, 211);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin : 150px 0 ;
+    font-family:sans-serif;
+    }
+
+.game {
+    background-color: rgb(78, 138, 211);
+    height: 300px;
+    width: 250px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    
+
+
+}
+
+#result {
+    background-color: rgb(255, 0, 0);
+    height: 25px;
+    margin: 0 75px;
+    border: solid transparent 2px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#question {
+    background-color:rgb(78, 138, 211);
+    margin-top: 50px;
+    height: 60px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#responsOne {
+    background-color: rgb(78, 138, 211);
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px
+;}
+input {
+    border: none;
+    width: 125px;
+    margin: 5px 0;
+    background-color: rgb(78, 138, 211);
+    border-bottom: 1px solid whitesmoke;
+    color: whitesmoke
+}
+button {
+    background-color:rgb(78, 138, 211);
+    height: 35px;
+    margin: 0 50px;
+    border: whitesmoke 2px solid;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-weight: bold;
+}
